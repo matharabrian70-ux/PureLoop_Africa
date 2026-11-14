@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://matharabrian70-ux.github.io/PureLoop_Africa/sitemap.xml
