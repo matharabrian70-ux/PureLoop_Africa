@@ -153,3 +153,11 @@ footer nav{flex-wrap:wrap}@media(max-width:760px){footer nav{justify-content:fle
   .sector-prelude small{margin-left:44px}
   .contact-prelude small{margin-left:46px}
 }
+
+.editorial-kicker--about{padding-left:15px;border-left:3px solid #8eaf57}
+.editorial-kicker--about .editorial-kicker__number{background:#e7efdc;color:#416b3d}
+.editorial-kicker--about .editorial-kicker__title{font-size:14px;letter-spacing:.035em}
+@media(max-width:760px){
+  .editorial-kicker--about{padding-left:11px}
+  .editorial-kicker--about .editorial-kicker__title{font-size:12px}
+}
