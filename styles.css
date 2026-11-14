@@ -36,3 +36,6 @@
 .team-grid article{min-height:0;border-right:0;border-bottom:1px solid var(--line);padding:25px}
 .team-grid article:last-child{border-bottom:0}.team-grid p{min-height:0}
 }
+
+/* Legal links in the main site footer */
+footer nav{flex-wrap:wrap}@media(max-width:760px){footer nav{justify-content:flex-start;gap:12px 18px}}
