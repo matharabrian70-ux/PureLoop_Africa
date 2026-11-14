@@ -137,3 +137,19 @@ footer nav{flex-wrap:wrap}@media(max-width:760px){footer nav{justify-content:fle
   .contact-prelude{flex-wrap:wrap}
   .contact-prelude small{width:100%;margin:0 0 0 21px}
 }
+
+/* Chapter numbers are deliberately treated differently in each section */
+.sector-prelude__mark{
+  width:32px;height:32px;flex:0 0 32px;display:grid;place-items:center;
+  border-radius:3px;background:#e8f0df;box-shadow:none;color:#49743c;
+  font:800 11px var(--display);letter-spacing:0
+}
+.contact-prelude__mark{
+  width:34px;height:34px;flex:0 0 34px;display:grid;place-items:center;
+  border-radius:3px;background:var(--lime);box-shadow:none;color:#173b2b;
+  font:800 11px var(--display)
+}
+@media(max-width:760px){
+  .sector-prelude small{margin-left:44px}
+  .contact-prelude small{margin-left:46px}
+}
